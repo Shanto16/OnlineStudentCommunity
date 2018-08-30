@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".InterestedCourses">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose courses you are interested in: "
+        android:textColor="@color/font_title"
+        android:textSize="18sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You will recieve notification for every posts for the courses you choose."
+        android:textColor="@color/font_normal"
+        android:textSize="11sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"/>
+
+
+
+
+
+</LinearLayout>

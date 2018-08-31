@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "192318322240",
+    "firebase_url": "https://cse327-727cd.firebaseio.com",
+    "project_id": "cse327-727cd",
+    "storage_bucket": "cse327-727cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192318322240:android:b00561d3de65d673",
+        "android_client_info": {
+          "package_name": "mcgyvers.mobitrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192318322240-vk651r14niosd4ev7685eqiivdi23cmo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCffMXWCHeIziGOkW4h4SKb86xxa16rbmU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,7 +1,9 @@
-package nsublack.onlinestudentcommunity;
+package nsublack.onlinestudentcommunity.DataModels;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import nsublack.onlinestudentcommunity.R;
 
 public class FeedDataModel {
 

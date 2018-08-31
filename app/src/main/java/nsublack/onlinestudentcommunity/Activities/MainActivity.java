@@ -1,6 +1,5 @@
-package nsublack.onlinestudentcommunity;
+package nsublack.onlinestudentcommunity.Activities;
 
-import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentTransaction;
@@ -11,7 +10,11 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import nsublack.onlinestudentcommunity.Fragments.Classes;
+import nsublack.onlinestudentcommunity.Fragments.Feed;
+import nsublack.onlinestudentcommunity.R;
+import nsublack.onlinestudentcommunity.Fragments.Settings;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -99,6 +102,13 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
+    }
+
+
+    @Override
+    protected void onPostCreate(Bundle savedInstanceState){
+        super.onPostCreate(savedInstanceState);
+        actionBarDrawerToggle.syncState();
     }
 
 }

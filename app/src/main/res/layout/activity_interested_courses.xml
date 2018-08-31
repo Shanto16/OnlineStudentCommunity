@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/background"
-    tools:context=".InterestedCourses">
+    tools:context=".Activities.InterestedCourses">
 
     <TextView
         android:layout_width="wrap_content"

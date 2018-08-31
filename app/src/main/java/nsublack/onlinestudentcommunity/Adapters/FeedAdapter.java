@@ -1,4 +1,4 @@
-package nsublack.onlinestudentcommunity;
+package nsublack.onlinestudentcommunity.Adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -10,6 +10,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
+
+import nsublack.onlinestudentcommunity.DataModels.FeedDataModel;
+import nsublack.onlinestudentcommunity.R;
 
 public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.FeedViewHolder> {
 
@@ -63,7 +66,6 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.FeedViewHolder
             profilepic = itemView.findViewById(R.id.profile_picture);
             posts = itemView.findViewById(R.id.problem);
             subject = itemView.findViewById(R.id.subject);
-
 
         }
 

@@ -1,4 +1,4 @@
-package nsublack.onlinestudentcommunity;
+package nsublack.onlinestudentcommunity.Fragments;
 
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import nsublack.onlinestudentcommunity.R;
 
 public class Classes extends Fragment {
 

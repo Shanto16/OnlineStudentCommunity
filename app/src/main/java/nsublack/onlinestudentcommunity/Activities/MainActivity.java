@@ -1,5 +1,6 @@
 package nsublack.onlinestudentcommunity.Activities;
 
+import android.graphics.Typeface;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentTransaction;
@@ -34,6 +35,11 @@ public class MainActivity extends AppCompatActivity {
         maintoolbar = findViewById(R.id.toolbar);
         setSupportActionBar(maintoolbar);
 
+
+
+        final Typeface amaranth = Typeface.createFromAsset(getAssets(),"fonts/Amaranth-Bold.ttf");
+
+
         toolbartext = findViewById(R.id.toolbarTXT);
         navigationView = findViewById(R.id.navigationView);
         drawerLayout = findViewById(R.id.drawer_layout);
@@ -46,6 +52,9 @@ public class MainActivity extends AppCompatActivity {
         fragmentTransaction.commit();
         toolbartext.setText("Feed");
         getSupportActionBar().setTitle("");
+
+        toolbartext.setTypeface(amaranth);
+
 
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {

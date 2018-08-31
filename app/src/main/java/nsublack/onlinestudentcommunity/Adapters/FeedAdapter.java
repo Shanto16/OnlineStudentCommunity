@@ -1,6 +1,7 @@
 package nsublack.onlinestudentcommunity.Adapters;
 
 import android.content.Context;
+import android.graphics.Typeface;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -67,6 +68,10 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.FeedViewHolder
             posts = itemView.findViewById(R.id.problem);
             subject = itemView.findViewById(R.id.subject);
 
+
+
+
+
         }
 
         public void setData(FeedDataModel current, int position) {
@@ -76,10 +81,15 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.FeedViewHolder
             this.caption.setText(current.getCaptionID());
             this.follwoing.setText(current.getFollowingID());
             this.comments.setText(current.getCommentsID());
+            this.posts.setImageResource(current.getProblemID());
             this.profilepic.setImageResource(current.getImageID());
             this.subject.setText(current.getSubjectID());
             this.position = position;
             this.currentObject = current;
+
+
+
+
 
 
 

@@ -82,11 +82,21 @@ public class FeedDataModel {
         int[] images = getImages();
         String[] varsity = getVarsity();
         String[] names = getNames();
+        String[] subjects = getSubjects();
+        String[] captions = getCaptions();
+        String[] following = getfollowing();
+        String[] comments = getComments();
+        int[] problems = getProblems();
 
         for (int i = 0; i < images.length; i++) {
             FeedDataModel feed = new FeedDataModel();
             feed.setImageID(images[i]);
             feed.setVarsityID(varsity[i]);
+            feed.setProblemID(problems[i]);
+            feed.setFollowingID(following[i]);
+            feed.setSubjectID(subjects[i]);
+            feed.setCommentsID(comments[i]);
+            feed.setCaptionID(captions[i]);
             feed.setNameID(names[i]);
 
             dataList.add(feed);
@@ -145,6 +155,100 @@ public class FeedDataModel {
         return varsities;
     }
 
+    private static String[] getfollowing() {
+        String[] following = {
+
+                "Following : 2 ",
+                "Following : 3 ",
+                "Following : 0 ",
+                "Following : 8",
+                "Following : 0 ",
+                "Following : 2 ",
+                "Following : 3 ",
+                "Following : 0 ",
+                "Following : 8",
+                "Following : 0 ",
+                "Following : 2 ",
+                "Following : 3 ",
+                "Following : 0 ",
+                "Following : 8",
+                "Following : 0 ",
+
+
+        };
+
+        return following;
+    }
+
+    private static String[] getComments() {
+        String[] following = {
+
+                "Comments : 0 ",
+                "Comments : 4 ",
+                "Comments : 3 ",
+                "Comments : 8",
+                "Comments : 4 ",
+                "Comments : 8 ",
+                "Comments : 6 ",
+                "Comments : 9 ",
+                "Comments : 1",
+                "Comments : 0 ",
+                "Comments : 0 ",
+                "Comments : 2 ",
+                "Comments : 5 ",
+                "Comments : 4",
+                "Comments : 7",
+
+
+        };
+
+        return following;
+    }
+
+    private static String[] getSubjects() {
+        String[] subjects = {
+
+                "CSE327",
+                "CSE311",
+                "PHY108",
+                "CSE327",
+                "CSE215",
+                "Android", "Mat116",
+                "CSE225",
+                "PHY108", "EEE111",
+                "CSE311",
+                "Android", "CSE327",
+                "CSE311",
+                "CSE115",
+
+
+        };
+
+        return subjects;
+    }
+
+    private static String[] getCaptions() {
+        String[] captions = {
+
+                "How do I solve this ??",
+                "Can someone give me important formulas to solve this issue ?",
+                "Any souls to help ? :3 ",
+                "What formula should I use for this one ?",
+                "",
+                "I tried to solve it for the whole night but couldn't. Anybody help ?", " Sir my team mate didn't do any work. I hope you do something about it. I was up the whole night for this",
+                "HOW DO I SOLVE IT ?",
+                "Can some give me the solution for number two ?", "Please help :( ",
+                "CSE311",
+                "Why is this error showing ?", "CSE327",
+                "CSE311",
+                "How do I solve it ?",
+
+
+        };
+
+        return captions;
+    }
+
 
     private static String[] getNames() {
         String[] names = {
@@ -169,5 +273,29 @@ public class FeedDataModel {
         };
 
         return names;
+    }
+
+    private static int[] getProblems() {
+        int[] problems = {
+
+                R.drawable.problemone,
+                R.drawable.problemtwo,
+                R.drawable.problemthree,
+                R.drawable.problemfour,
+                R.drawable.problemfive,
+                R.drawable.problemsix,
+                R.drawable.problemseven,
+                R.drawable.problemeight,
+                R.drawable.problemnine,
+                R.drawable.problemten,
+                R.drawable.problemeleven,
+                R.drawable.problemtwelve,
+                R.drawable.problemthirteen,
+                R.drawable.problemfourteen,
+                R.drawable.problemfifteen,
+
+        };
+
+        return problems;
     }
 }

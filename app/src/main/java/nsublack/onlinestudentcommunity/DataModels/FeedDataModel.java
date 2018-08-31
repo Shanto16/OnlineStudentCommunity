@@ -235,7 +235,7 @@ public class FeedDataModel {
                 "Any souls to help ? :3 ",
                 "What formula should I use for this one ?",
                 "",
-                "I tried to solve it for the whole night but couldn't. Anybody help ?", " Sir my team mate didn't do any work. I hope you do something about it. I was up the whole night for this",
+                "I tried to solve it for the whole night but couldn't. Anybody help ?", "  I was up the whole night for this",
                 "HOW DO I SOLVE IT ?",
                 "Can some give me the solution for number two ?", "Please help :( ",
                 "CSE311",
